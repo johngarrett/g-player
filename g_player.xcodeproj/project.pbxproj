@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		961826F324A83933009A1A34 /* GColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961826F224A83933009A1A34 /* GColors.swift */; };
 		9630CE9C24A81ABD0061A140 /* g_player WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 9630CE9B24A81ABD0061A140 /* g_player WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		9630CEA124A81AC10061A140 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9630CEA024A81AC10061A140 /* Assets.xcassets */; };
 		9630CEA824A81AC10061A140 /* g_player WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 9630CEA724A81AC10061A140 /* g_player WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		9630CEAD24A81AC10061A140 /* g_playerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9630CEAC24A81AC10061A140 /* g_playerApp.swift */; };
-		9630CEAF24A81AC10061A140 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9630CEAE24A81AC10061A140 /* ContentView.swift */; };
-		9630CEB124A81AC10061A140 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9630CEB024A81AC10061A140 /* NotificationController.swift */; };
-		9630CEB324A81AC10061A140 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9630CEB224A81AC10061A140 /* NotificationView.swift */; };
 		9630CEB524A81AC40061A140 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9630CEB424A81AC40061A140 /* Assets.xcassets */; };
 		9630CEB824A81AC40061A140 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9630CEB724A81AC40061A140 /* Preview Assets.xcassets */; };
+		9630CEC924A81B5F0061A140 /* NowPlayingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9630CEC824A81B5F0061A140 /* NowPlayingView.swift */; };
+		9630CECB24A81B660061A140 /* UpNextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9630CECA24A81B660061A140 /* UpNextView.swift */; };
+		9630CECD24A81B860061A140 /* BrowseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9630CECC24A81B860061A140 /* BrowseView.swift */; };
+		9630CED124A8331E0061A140 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9630CED024A8331E0061A140 /* Colors.xcassets */; };
+		964D93AF24A8409D002EC05B /* PlayableContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964D93AE24A8409D002EC05B /* PlayableContent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,19 +64,22 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		961826F224A83933009A1A34 /* GColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GColors.swift; sourceTree = "<group>"; };
 		9630CE9724A81ABC0061A140 /* g_player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = g_player.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9630CE9B24A81ABD0061A140 /* g_player WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "g_player WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9630CEA024A81AC10061A140 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9630CEA224A81AC10061A140 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9630CEA724A81AC10061A140 /* g_player WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "g_player WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9630CEAC24A81AC10061A140 /* g_playerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = g_playerApp.swift; sourceTree = "<group>"; };
-		9630CEAE24A81AC10061A140 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		9630CEB024A81AC10061A140 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
-		9630CEB224A81AC10061A140 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
 		9630CEB424A81AC40061A140 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9630CEB724A81AC40061A140 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9630CEB924A81AC40061A140 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9630CEBA24A81AC40061A140 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		9630CEC824A81B5F0061A140 /* NowPlayingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayingView.swift; sourceTree = "<group>"; };
+		9630CECA24A81B660061A140 /* UpNextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpNextView.swift; sourceTree = "<group>"; };
+		9630CECC24A81B860061A140 /* BrowseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseView.swift; sourceTree = "<group>"; };
+		9630CED024A8331E0061A140 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		964D93AE24A8409D002EC05B /* PlayableContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayableContent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +96,7 @@
 		9630CE9024A81ABC0061A140 = {
 			isa = PBXGroup;
 			children = (
+				964D93AE24A8409D002EC05B /* PlayableContent.swift */,
 				9630CE9F24A81ABD0061A140 /* g_player WatchKit App */,
 				9630CEAB24A81AC10061A140 /* g_player WatchKit Extension */,
 				9630CE9824A81ABC0061A140 /* Products */,
@@ -110,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				9630CEA024A81AC10061A140 /* Assets.xcassets */,
+				9630CED024A8331E0061A140 /* Colors.xcassets */,
 				9630CEA224A81AC10061A140 /* Info.plist */,
 			);
 			path = "g_player WatchKit App";
@@ -119,9 +127,10 @@
 			isa = PBXGroup;
 			children = (
 				9630CEAC24A81AC10061A140 /* g_playerApp.swift */,
-				9630CEAE24A81AC10061A140 /* ContentView.swift */,
-				9630CEB024A81AC10061A140 /* NotificationController.swift */,
-				9630CEB224A81AC10061A140 /* NotificationView.swift */,
+				9630CEC824A81B5F0061A140 /* NowPlayingView.swift */,
+				9630CECA24A81B660061A140 /* UpNextView.swift */,
+				961826F224A83933009A1A34 /* GColors.swift */,
+				9630CECC24A81B860061A140 /* BrowseView.swift */,
 				9630CEB424A81AC40061A140 /* Assets.xcassets */,
 				9630CEB924A81AC40061A140 /* Info.plist */,
 				9630CEBA24A81AC40061A140 /* PushNotificationPayload.apns */,
@@ -245,6 +254,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9630CEA124A81AC10061A140 /* Assets.xcassets in Resources */,
+				9630CED124A8331E0061A140 /* Colors.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,10 +274,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9630CEB124A81AC10061A140 /* NotificationController.swift in Sources */,
-				9630CEAF24A81AC10061A140 /* ContentView.swift in Sources */,
+				9630CECD24A81B860061A140 /* BrowseView.swift in Sources */,
+				9630CECB24A81B660061A140 /* UpNextView.swift in Sources */,
+				961826F324A83933009A1A34 /* GColors.swift in Sources */,
+				964D93AF24A8409D002EC05B /* PlayableContent.swift in Sources */,
 				9630CEAD24A81AC10061A140 /* g_playerApp.swift in Sources */,
-				9630CEB324A81AC10061A140 /* NotificationView.swift in Sources */,
+				9630CEC924A81B5F0061A140 /* NowPlayingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
