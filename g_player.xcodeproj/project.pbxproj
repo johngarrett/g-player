@@ -7,57 +7,60 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		961826F324A83933009A1A34 /* GSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961826F224A83933009A1A34 /* GSwiftUI.swift */; };
-		9630CE9C24A81ABD0061A140 /* g_player WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 9630CE9B24A81ABD0061A140 /* g_player WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		9630CEA124A81AC10061A140 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9630CEA024A81AC10061A140 /* Assets.xcassets */; };
-		9630CEA824A81AC10061A140 /* g_player WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 9630CEA724A81AC10061A140 /* g_player WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		9630CEAD24A81AC10061A140 /* g_playerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9630CEAC24A81AC10061A140 /* g_playerApp.swift */; };
-		9630CEB524A81AC40061A140 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9630CEB424A81AC40061A140 /* Assets.xcassets */; };
-		9630CEB824A81AC40061A140 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9630CEB724A81AC40061A140 /* Preview Assets.xcassets */; };
-		9630CEC924A81B5F0061A140 /* NowPlayingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9630CEC824A81B5F0061A140 /* NowPlayingView.swift */; };
-		9630CECB24A81B660061A140 /* UpNextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9630CECA24A81B660061A140 /* UpNextView.swift */; };
-		9630CECD24A81B860061A140 /* BrowseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9630CECC24A81B860061A140 /* BrowseView.swift */; };
-		9630CED124A8331E0061A140 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9630CED024A8331E0061A140 /* Colors.xcassets */; };
-		964D93AF24A8409D002EC05B /* PlayableContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964D93AE24A8409D002EC05B /* PlayableContent.swift */; };
-		964D93B124A85BA4002EC05B /* ViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964D93B024A85BA4002EC05B /* ViewModifiers.swift */; };
+		96196C6F24A903C8000BE616 /* g_player WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 96196C6E24A903C8000BE616 /* g_player WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		96196C7524A903C8000BE616 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96196C7324A903C8000BE616 /* Interface.storyboard */; };
+		96196C7724A903C8000BE616 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96196C7624A903C8000BE616 /* Assets.xcassets */; };
+		96196C7E24A903C9000BE616 /* g_player WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 96196C7D24A903C9000BE616 /* g_player WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		96196C8324A903C9000BE616 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96196C8224A903C9000BE616 /* ContentView.swift */; };
+		96196C8524A903C9000BE616 /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96196C8424A903C9000BE616 /* HostingController.swift */; };
+		96196C8724A903C9000BE616 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96196C8624A903C9000BE616 /* ExtensionDelegate.swift */; };
+		96196C8924A903C9000BE616 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96196C8824A903C9000BE616 /* Assets.xcassets */; };
+		96196C8C24A903C9000BE616 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96196C8B24A903C9000BE616 /* Preview Assets.xcassets */; };
+		96196CA024A90555000BE616 /* g_playerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96196C9B24A90554000BE616 /* g_playerApp.swift */; };
+		96196CA124A90555000BE616 /* GSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96196C9C24A90554000BE616 /* GSwiftUI.swift */; };
+		96196CA224A90555000BE616 /* NowPlayingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96196C9D24A90555000BE616 /* NowPlayingView.swift */; };
+		96196CA324A90555000BE616 /* UpNextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96196C9E24A90555000BE616 /* UpNextView.swift */; };
+		96196CA424A90555000BE616 /* BrowseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96196C9F24A90555000BE616 /* BrowseView.swift */; };
+		96196CA724A9055E000BE616 /* ViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96196CA524A9055D000BE616 /* ViewModifiers.swift */; };
+		96196CA824A9055E000BE616 /* PlayableContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96196CA624A9055D000BE616 /* PlayableContent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9630CE9D24A81ABD0061A140 /* PBXContainerItemProxy */ = {
+		96196C7024A903C8000BE616 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 9630CE9124A81ABC0061A140 /* Project object */;
+			containerPortal = 96196C6424A903C7000BE616 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9630CE9A24A81ABD0061A140;
+			remoteGlobalIDString = 96196C6D24A903C8000BE616;
 			remoteInfo = "g_player WatchKit App";
 		};
-		9630CEA924A81AC10061A140 /* PBXContainerItemProxy */ = {
+		96196C7F24A903C9000BE616 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 9630CE9124A81ABC0061A140 /* Project object */;
+			containerPortal = 96196C6424A903C7000BE616 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9630CEA624A81AC10061A140;
+			remoteGlobalIDString = 96196C7C24A903C9000BE616;
 			remoteInfo = "g_player WatchKit Extension";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		9630CEC024A81AC40061A140 /* Embed App Extensions */ = {
+		96196C9324A903C9000BE616 /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				9630CEA824A81AC10061A140 /* g_player WatchKit Extension.appex in Embed App Extensions */,
+				96196C7E24A903C9000BE616 /* g_player WatchKit Extension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9630CEC424A81AC40061A140 /* Embed Watch Content */ = {
+		96196C9724A903C9000BE616 /* Embed Watch Content */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				9630CE9C24A81ABD0061A140 /* g_player WatchKit App.app in Embed Watch Content */,
+				96196C6F24A903C8000BE616 /* g_player WatchKit App.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -65,27 +68,29 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		961826F224A83933009A1A34 /* GSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GSwiftUI.swift; sourceTree = "<group>"; };
-		9630CE9724A81ABC0061A140 /* g_player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = g_player.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9630CE9B24A81ABD0061A140 /* g_player WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "g_player WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9630CEA024A81AC10061A140 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9630CEA224A81AC10061A140 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9630CEA724A81AC10061A140 /* g_player WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "g_player WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9630CEAC24A81AC10061A140 /* g_playerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = g_playerApp.swift; sourceTree = "<group>"; };
-		9630CEB424A81AC40061A140 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9630CEB724A81AC40061A140 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		9630CEB924A81AC40061A140 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9630CEBA24A81AC40061A140 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
-		9630CEC824A81B5F0061A140 /* NowPlayingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayingView.swift; sourceTree = "<group>"; };
-		9630CECA24A81B660061A140 /* UpNextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpNextView.swift; sourceTree = "<group>"; };
-		9630CECC24A81B860061A140 /* BrowseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseView.swift; sourceTree = "<group>"; };
-		9630CED024A8331E0061A140 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
-		964D93AE24A8409D002EC05B /* PlayableContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayableContent.swift; sourceTree = "<group>"; };
-		964D93B024A85BA4002EC05B /* ViewModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifiers.swift; sourceTree = "<group>"; };
+		96196C6A24A903C7000BE616 /* g_player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = g_player.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96196C6E24A903C8000BE616 /* g_player WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "g_player WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96196C7424A903C8000BE616 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		96196C7624A903C8000BE616 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		96196C7824A903C8000BE616 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96196C7D24A903C9000BE616 /* g_player WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "g_player WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96196C8224A903C9000BE616 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		96196C8424A903C9000BE616 /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
+		96196C8624A903C9000BE616 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		96196C8824A903C9000BE616 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		96196C8B24A903C9000BE616 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		96196C8D24A903C9000BE616 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96196C9B24A90554000BE616 /* g_playerApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = g_playerApp.swift; sourceTree = "<group>"; };
+		96196C9C24A90554000BE616 /* GSwiftUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GSwiftUI.swift; sourceTree = "<group>"; };
+		96196C9D24A90555000BE616 /* NowPlayingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NowPlayingView.swift; sourceTree = "<group>"; };
+		96196C9E24A90555000BE616 /* UpNextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpNextView.swift; sourceTree = "<group>"; };
+		96196C9F24A90555000BE616 /* BrowseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrowseView.swift; sourceTree = "<group>"; };
+		96196CA524A9055D000BE616 /* ViewModifiers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModifiers.swift; sourceTree = "<group>"; };
+		96196CA624A9055D000BE616 /* PlayableContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayableContent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9630CEA424A81AC10061A140 /* Frameworks */ = {
+		96196C7A24A903C9000BE616 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -95,57 +100,59 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9630CE9024A81ABC0061A140 = {
+		96196C6324A903C7000BE616 = {
 			isa = PBXGroup;
 			children = (
-				964D93AE24A8409D002EC05B /* PlayableContent.swift */,
-				964D93B024A85BA4002EC05B /* ViewModifiers.swift */,
-				9630CE9F24A81ABD0061A140 /* g_player WatchKit App */,
-				9630CEAB24A81AC10061A140 /* g_player WatchKit Extension */,
-				9630CE9824A81ABC0061A140 /* Products */,
+				96196C7224A903C8000BE616 /* g_player WatchKit App */,
+				96196C8124A903C9000BE616 /* g_player WatchKit Extension */,
+				96196C6B24A903C7000BE616 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		9630CE9824A81ABC0061A140 /* Products */ = {
+		96196C6B24A903C7000BE616 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9630CE9724A81ABC0061A140 /* g_player.app */,
-				9630CE9B24A81ABD0061A140 /* g_player WatchKit App.app */,
-				9630CEA724A81AC10061A140 /* g_player WatchKit Extension.appex */,
+				96196C6A24A903C7000BE616 /* g_player.app */,
+				96196C6E24A903C8000BE616 /* g_player WatchKit App.app */,
+				96196C7D24A903C9000BE616 /* g_player WatchKit Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9630CE9F24A81ABD0061A140 /* g_player WatchKit App */ = {
+		96196C7224A903C8000BE616 /* g_player WatchKit App */ = {
 			isa = PBXGroup;
 			children = (
-				9630CEA024A81AC10061A140 /* Assets.xcassets */,
-				9630CED024A8331E0061A140 /* Colors.xcassets */,
-				9630CEA224A81AC10061A140 /* Info.plist */,
+				96196C7324A903C8000BE616 /* Interface.storyboard */,
+				96196C7624A903C8000BE616 /* Assets.xcassets */,
+				96196C7824A903C8000BE616 /* Info.plist */,
 			);
 			path = "g_player WatchKit App";
 			sourceTree = "<group>";
 		};
-		9630CEAB24A81AC10061A140 /* g_player WatchKit Extension */ = {
+		96196C8124A903C9000BE616 /* g_player WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				9630CEAC24A81AC10061A140 /* g_playerApp.swift */,
-				9630CEC824A81B5F0061A140 /* NowPlayingView.swift */,
-				9630CECA24A81B660061A140 /* UpNextView.swift */,
-				961826F224A83933009A1A34 /* GSwiftUI.swift */,
-				9630CECC24A81B860061A140 /* BrowseView.swift */,
-				9630CEB424A81AC40061A140 /* Assets.xcassets */,
-				9630CEB924A81AC40061A140 /* Info.plist */,
-				9630CEBA24A81AC40061A140 /* PushNotificationPayload.apns */,
-				9630CEB624A81AC40061A140 /* Preview Content */,
+				96196CA624A9055D000BE616 /* PlayableContent.swift */,
+				96196CA524A9055D000BE616 /* ViewModifiers.swift */,
+				96196C9F24A90555000BE616 /* BrowseView.swift */,
+				96196C9B24A90554000BE616 /* g_playerApp.swift */,
+				96196C9C24A90554000BE616 /* GSwiftUI.swift */,
+				96196C9D24A90555000BE616 /* NowPlayingView.swift */,
+				96196C9E24A90555000BE616 /* UpNextView.swift */,
+				96196C8224A903C9000BE616 /* ContentView.swift */,
+				96196C8424A903C9000BE616 /* HostingController.swift */,
+				96196C8624A903C9000BE616 /* ExtensionDelegate.swift */,
+				96196C8824A903C9000BE616 /* Assets.xcassets */,
+				96196C8D24A903C9000BE616 /* Info.plist */,
+				96196C8A24A903C9000BE616 /* Preview Content */,
 			);
 			path = "g_player WatchKit Extension";
 			sourceTree = "<group>";
 		};
-		9630CEB624A81AC40061A140 /* Preview Content */ = {
+		96196C8A24A903C9000BE616 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				9630CEB724A81AC40061A140 /* Preview Assets.xcassets */,
+				96196C8B24A903C9000BE616 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -153,47 +160,47 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9630CE9624A81ABC0061A140 /* g_player */ = {
+		96196C6924A903C7000BE616 /* g_player */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9630CEC524A81AC40061A140 /* Build configuration list for PBXNativeTarget "g_player" */;
+			buildConfigurationList = 96196C9824A903C9000BE616 /* Build configuration list for PBXNativeTarget "g_player" */;
 			buildPhases = (
-				9630CE9524A81ABC0061A140 /* Resources */,
-				9630CEC424A81AC40061A140 /* Embed Watch Content */,
+				96196C6824A903C7000BE616 /* Resources */,
+				96196C9724A903C9000BE616 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9630CE9E24A81ABD0061A140 /* PBXTargetDependency */,
+				96196C7124A903C8000BE616 /* PBXTargetDependency */,
 			);
 			name = g_player;
 			productName = g_player;
-			productReference = 9630CE9724A81ABC0061A140 /* g_player.app */;
+			productReference = 96196C6A24A903C7000BE616 /* g_player.app */;
 			productType = "com.apple.product-type.application.watchapp2-container";
 		};
-		9630CE9A24A81ABD0061A140 /* g_player WatchKit App */ = {
+		96196C6D24A903C8000BE616 /* g_player WatchKit App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9630CEC124A81AC40061A140 /* Build configuration list for PBXNativeTarget "g_player WatchKit App" */;
+			buildConfigurationList = 96196C9424A903C9000BE616 /* Build configuration list for PBXNativeTarget "g_player WatchKit App" */;
 			buildPhases = (
-				9630CE9924A81ABD0061A140 /* Resources */,
-				9630CEC024A81AC40061A140 /* Embed App Extensions */,
+				96196C6C24A903C8000BE616 /* Resources */,
+				96196C9324A903C9000BE616 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9630CEAA24A81AC10061A140 /* PBXTargetDependency */,
+				96196C8024A903C9000BE616 /* PBXTargetDependency */,
 			);
 			name = "g_player WatchKit App";
 			productName = "g_player WatchKit App";
-			productReference = 9630CE9B24A81ABD0061A140 /* g_player WatchKit App.app */;
+			productReference = 96196C6E24A903C8000BE616 /* g_player WatchKit App.app */;
 			productType = "com.apple.product-type.application.watchapp2";
 		};
-		9630CEA624A81AC10061A140 /* g_player WatchKit Extension */ = {
+		96196C7C24A903C9000BE616 /* g_player WatchKit Extension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9630CEBD24A81AC40061A140 /* Build configuration list for PBXNativeTarget "g_player WatchKit Extension" */;
+			buildConfigurationList = 96196C9024A903C9000BE616 /* Build configuration list for PBXNativeTarget "g_player WatchKit Extension" */;
 			buildPhases = (
-				9630CEA324A81AC10061A140 /* Sources */,
-				9630CEA424A81AC10061A140 /* Frameworks */,
-				9630CEA524A81AC10061A140 /* Resources */,
+				96196C7924A903C9000BE616 /* Sources */,
+				96196C7A24A903C9000BE616 /* Frameworks */,
+				96196C7B24A903C9000BE616 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -201,30 +208,31 @@
 			);
 			name = "g_player WatchKit Extension";
 			productName = "g_player WatchKit Extension";
-			productReference = 9630CEA724A81AC10061A140 /* g_player WatchKit Extension.appex */;
+			productReference = 96196C7D24A903C9000BE616 /* g_player WatchKit Extension.appex */;
 			productType = "com.apple.product-type.watchkit2-extension";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		9630CE9124A81ABC0061A140 /* Project object */ = {
+		96196C6424A903C7000BE616 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1200;
+				LastSwiftUpdateCheck = 1150;
 				LastUpgradeCheck = 1200;
+				ORGANIZATIONNAME = garrepi;
 				TargetAttributes = {
-					9630CE9624A81ABC0061A140 = {
-						CreatedOnToolsVersion = 12.0;
+					96196C6924A903C7000BE616 = {
+						CreatedOnToolsVersion = 11.5;
 					};
-					9630CE9A24A81ABD0061A140 = {
-						CreatedOnToolsVersion = 12.0;
+					96196C6D24A903C8000BE616 = {
+						CreatedOnToolsVersion = 11.5;
 					};
-					9630CEA624A81AC10061A140 = {
-						CreatedOnToolsVersion = 12.0;
+					96196C7C24A903C9000BE616 = {
+						CreatedOnToolsVersion = 11.5;
 					};
 				};
 			};
-			buildConfigurationList = 9630CE9424A81ABC0061A140 /* Build configuration list for PBXProject "g_player" */;
+			buildConfigurationList = 96196C6724A903C7000BE616 /* Build configuration list for PBXProject "g_player" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -232,78 +240,92 @@
 				en,
 				Base,
 			);
-			mainGroup = 9630CE9024A81ABC0061A140;
-			productRefGroup = 9630CE9824A81ABC0061A140 /* Products */;
+			mainGroup = 96196C6324A903C7000BE616;
+			productRefGroup = 96196C6B24A903C7000BE616 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9630CE9624A81ABC0061A140 /* g_player */,
-				9630CE9A24A81ABD0061A140 /* g_player WatchKit App */,
-				9630CEA624A81AC10061A140 /* g_player WatchKit Extension */,
+				96196C6924A903C7000BE616 /* g_player */,
+				96196C6D24A903C8000BE616 /* g_player WatchKit App */,
+				96196C7C24A903C9000BE616 /* g_player WatchKit Extension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9630CE9524A81ABC0061A140 /* Resources */ = {
+		96196C6824A903C7000BE616 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9630CE9924A81ABD0061A140 /* Resources */ = {
+		96196C6C24A903C8000BE616 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9630CEA124A81AC10061A140 /* Assets.xcassets in Resources */,
-				9630CED124A8331E0061A140 /* Colors.xcassets in Resources */,
+				96196C7724A903C8000BE616 /* Assets.xcassets in Resources */,
+				96196C7524A903C8000BE616 /* Interface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9630CEA524A81AC10061A140 /* Resources */ = {
+		96196C7B24A903C9000BE616 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9630CEB824A81AC40061A140 /* Preview Assets.xcassets in Resources */,
-				9630CEB524A81AC40061A140 /* Assets.xcassets in Resources */,
+				96196C8C24A903C9000BE616 /* Preview Assets.xcassets in Resources */,
+				96196C8924A903C9000BE616 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9630CEA324A81AC10061A140 /* Sources */ = {
+		96196C7924A903C9000BE616 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9630CECD24A81B860061A140 /* BrowseView.swift in Sources */,
-				964D93B124A85BA4002EC05B /* ViewModifiers.swift in Sources */,
-				9630CECB24A81B660061A140 /* UpNextView.swift in Sources */,
-				961826F324A83933009A1A34 /* GSwiftUI.swift in Sources */,
-				964D93AF24A8409D002EC05B /* PlayableContent.swift in Sources */,
-				9630CEAD24A81AC10061A140 /* g_playerApp.swift in Sources */,
-				9630CEC924A81B5F0061A140 /* NowPlayingView.swift in Sources */,
+				96196CA424A90555000BE616 /* BrowseView.swift in Sources */,
+				96196CA224A90555000BE616 /* NowPlayingView.swift in Sources */,
+				96196CA024A90555000BE616 /* g_playerApp.swift in Sources */,
+				96196CA824A9055E000BE616 /* PlayableContent.swift in Sources */,
+				96196CA724A9055E000BE616 /* ViewModifiers.swift in Sources */,
+				96196C8524A903C9000BE616 /* HostingController.swift in Sources */,
+				96196C8324A903C9000BE616 /* ContentView.swift in Sources */,
+				96196C8724A903C9000BE616 /* ExtensionDelegate.swift in Sources */,
+				96196CA124A90555000BE616 /* GSwiftUI.swift in Sources */,
+				96196CA324A90555000BE616 /* UpNextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9630CE9E24A81ABD0061A140 /* PBXTargetDependency */ = {
+		96196C7124A903C8000BE616 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9630CE9A24A81ABD0061A140 /* g_player WatchKit App */;
-			targetProxy = 9630CE9D24A81ABD0061A140 /* PBXContainerItemProxy */;
+			target = 96196C6D24A903C8000BE616 /* g_player WatchKit App */;
+			targetProxy = 96196C7024A903C8000BE616 /* PBXContainerItemProxy */;
 		};
-		9630CEAA24A81AC10061A140 /* PBXTargetDependency */ = {
+		96196C8024A903C9000BE616 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9630CEA624A81AC10061A140 /* g_player WatchKit Extension */;
-			targetProxy = 9630CEA924A81AC10061A140 /* PBXContainerItemProxy */;
+			target = 96196C7C24A903C9000BE616 /* g_player WatchKit Extension */;
+			targetProxy = 96196C7F24A903C9000BE616 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		96196C7324A903C8000BE616 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96196C7424A903C8000BE616 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		9630CEBB24A81AC40061A140 /* Debug */ = {
+		96196C8E24A903C9000BE616 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -363,7 +385,7 @@
 			};
 			name = Debug;
 		};
-		9630CEBC24A81AC40061A140 /* Release */ = {
+		96196C8F24A903C9000BE616 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -417,7 +439,7 @@
 			};
 			name = Release;
 		};
-		9630CEBE24A81AC40061A140 /* Debug */ = {
+		96196C9124A903C9000BE616 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
@@ -437,11 +459,11 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
 			};
 			name = Debug;
 		};
-		9630CEBF24A81AC40061A140 /* Release */ = {
+		96196C9224A903C9000BE616 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
@@ -461,16 +483,15 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
 			};
 			name = Release;
 		};
-		9630CEC224A81AC40061A140 /* Debug */ = {
+		96196C9524A903C9000BE616 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F65W3J85C2;
 				IBSC_MODULE = g_player_WatchKit_Extension;
@@ -481,16 +502,15 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
 			};
 			name = Debug;
 		};
-		9630CEC324A81AC40061A140 /* Release */ = {
+		96196C9624A903C9000BE616 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F65W3J85C2;
 				IBSC_MODULE = g_player_WatchKit_Extension;
@@ -501,14 +521,13 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
 			};
 			name = Release;
 		};
-		9630CEC624A81AC40061A140 /* Debug */ = {
+		96196C9924A903C9000BE616 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = F65W3J85C2;
@@ -519,10 +538,9 @@
 			};
 			name = Debug;
 		};
-		9630CEC724A81AC40061A140 /* Release */ = {
+		96196C9A24A903C9000BE616 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = F65W3J85C2;
@@ -536,43 +554,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9630CE9424A81ABC0061A140 /* Build configuration list for PBXProject "g_player" */ = {
+		96196C6724A903C7000BE616 /* Build configuration list for PBXProject "g_player" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9630CEBB24A81AC40061A140 /* Debug */,
-				9630CEBC24A81AC40061A140 /* Release */,
+				96196C8E24A903C9000BE616 /* Debug */,
+				96196C8F24A903C9000BE616 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9630CEBD24A81AC40061A140 /* Build configuration list for PBXNativeTarget "g_player WatchKit Extension" */ = {
+		96196C9024A903C9000BE616 /* Build configuration list for PBXNativeTarget "g_player WatchKit Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9630CEBE24A81AC40061A140 /* Debug */,
-				9630CEBF24A81AC40061A140 /* Release */,
+				96196C9124A903C9000BE616 /* Debug */,
+				96196C9224A903C9000BE616 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9630CEC124A81AC40061A140 /* Build configuration list for PBXNativeTarget "g_player WatchKit App" */ = {
+		96196C9424A903C9000BE616 /* Build configuration list for PBXNativeTarget "g_player WatchKit App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9630CEC224A81AC40061A140 /* Debug */,
-				9630CEC324A81AC40061A140 /* Release */,
+				96196C9524A903C9000BE616 /* Debug */,
+				96196C9624A903C9000BE616 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9630CEC524A81AC40061A140 /* Build configuration list for PBXNativeTarget "g_player" */ = {
+		96196C9824A903C9000BE616 /* Build configuration list for PBXNativeTarget "g_player" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9630CEC624A81AC40061A140 /* Debug */,
-				9630CEC724A81AC40061A140 /* Release */,
+				96196C9924A903C9000BE616 /* Debug */,
+				96196C9A24A903C9000BE616 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 9630CE9124A81ABC0061A140 /* Project object */;
+	rootObject = 96196C6424A903C7000BE616 /* Project object */;
 }

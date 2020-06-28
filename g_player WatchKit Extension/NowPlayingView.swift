@@ -1,4 +1,5 @@
 import SwiftUI
+import AVFoundation
 
 struct NowPlayingView: View {
     let currentSong: PlayableContent
@@ -12,6 +13,18 @@ struct NowPlayingView: View {
             let mins = diff - (hours * 60)
             return "- \(hours):\(mins)"
         }()
+        
+        let session = AVAudioSession.sharedInstance()
+
+        do {
+            try session.setCategory(AVAudioSession.Category.playback,
+                                    mode: .default,
+                                    policy: .default,
+                                    options: [])
+        } catch let error {
+            fatalError("*** Unable to set up the audio session: \(error.localizedDescription) ***")
+        }
+        
     }
     
     var body: some View {
@@ -34,7 +47,7 @@ struct NowPlayingView: View {
                         .zIndex(0.0)
                 }
                 Text(timeRemaining)
-                    .font(.caption2)
+                    .font(.caption)
                     .foregroundColor(.gray)
             }
             .padding(.vertical, 5)
