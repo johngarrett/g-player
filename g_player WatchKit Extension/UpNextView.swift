@@ -37,19 +37,11 @@ struct UpNextCard: View {
     var body: some View {
         VStack {
             Text(title)
-                .font(.title3)
-                .fontWeight(.bold)
-                .foregroundColor(active ? spotfiyGreen : .white)
-                .lineLimit(2)
+                .style(for: .Title, with: active ? spotfiyGreen : .white)
                 .padding(.horizontal, 5)
-                .minimumScaleFactor(0.8)
             Spacer()
             Text(subtext)
-                .font(.caption)
-                .fontWeight(.regular)
-                .foregroundColor(active ? spotfiyGreen : .white)
-                .minimumScaleFactor(0.5)
-                .lineLimit(1)
+                .style(for: .Subtitle)
         }
         .padding(.vertical, 15)
         .allowsTightening(true)

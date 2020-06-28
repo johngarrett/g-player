@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		961826F324A83933009A1A34 /* GColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961826F224A83933009A1A34 /* GColors.swift */; };
+		961826F324A83933009A1A34 /* GSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961826F224A83933009A1A34 /* GSwiftUI.swift */; };
 		9630CE9C24A81ABD0061A140 /* g_player WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 9630CE9B24A81ABD0061A140 /* g_player WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		9630CEA124A81AC10061A140 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9630CEA024A81AC10061A140 /* Assets.xcassets */; };
 		9630CEA824A81AC10061A140 /* g_player WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 9630CEA724A81AC10061A140 /* g_player WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -19,6 +19,7 @@
 		9630CECD24A81B860061A140 /* BrowseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9630CECC24A81B860061A140 /* BrowseView.swift */; };
 		9630CED124A8331E0061A140 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9630CED024A8331E0061A140 /* Colors.xcassets */; };
 		964D93AF24A8409D002EC05B /* PlayableContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964D93AE24A8409D002EC05B /* PlayableContent.swift */; };
+		964D93B124A85BA4002EC05B /* ViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964D93B024A85BA4002EC05B /* ViewModifiers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,7 +65,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		961826F224A83933009A1A34 /* GColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GColors.swift; sourceTree = "<group>"; };
+		961826F224A83933009A1A34 /* GSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GSwiftUI.swift; sourceTree = "<group>"; };
 		9630CE9724A81ABC0061A140 /* g_player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = g_player.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9630CE9B24A81ABD0061A140 /* g_player WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "g_player WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9630CEA024A81AC10061A140 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -80,6 +81,7 @@
 		9630CECC24A81B860061A140 /* BrowseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseView.swift; sourceTree = "<group>"; };
 		9630CED024A8331E0061A140 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		964D93AE24A8409D002EC05B /* PlayableContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayableContent.swift; sourceTree = "<group>"; };
+		964D93B024A85BA4002EC05B /* ViewModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifiers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				964D93AE24A8409D002EC05B /* PlayableContent.swift */,
+				964D93B024A85BA4002EC05B /* ViewModifiers.swift */,
 				9630CE9F24A81ABD0061A140 /* g_player WatchKit App */,
 				9630CEAB24A81AC10061A140 /* g_player WatchKit Extension */,
 				9630CE9824A81ABC0061A140 /* Products */,
@@ -129,7 +132,7 @@
 				9630CEAC24A81AC10061A140 /* g_playerApp.swift */,
 				9630CEC824A81B5F0061A140 /* NowPlayingView.swift */,
 				9630CECA24A81B660061A140 /* UpNextView.swift */,
-				961826F224A83933009A1A34 /* GColors.swift */,
+				961826F224A83933009A1A34 /* GSwiftUI.swift */,
 				9630CECC24A81B860061A140 /* BrowseView.swift */,
 				9630CEB424A81AC40061A140 /* Assets.xcassets */,
 				9630CEB924A81AC40061A140 /* Info.plist */,
@@ -275,8 +278,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9630CECD24A81B860061A140 /* BrowseView.swift in Sources */,
+				964D93B124A85BA4002EC05B /* ViewModifiers.swift in Sources */,
 				9630CECB24A81B660061A140 /* UpNextView.swift in Sources */,
-				961826F324A83933009A1A34 /* GColors.swift in Sources */,
+				961826F324A83933009A1A34 /* GSwiftUI.swift in Sources */,
 				964D93AF24A8409D002EC05B /* PlayableContent.swift in Sources */,
 				9630CEAD24A81AC10061A140 /* g_playerApp.swift in Sources */,
 				9630CEC924A81B5F0061A140 /* NowPlayingView.swift in Sources */,

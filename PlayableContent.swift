@@ -8,12 +8,12 @@ struct PlayableContent {
     let length: Int
     let currentPosition: Int
     
-    init(_ title: String, creator: String, length: Int) {
+    init(_ title: String, creator: String, length: Int, currentPosition: Int=0) {
         self.active = false
         self.title = title
         self.creator = creator
         self.image = nil
         self.length = length
-        self.currentPosition = 0
+        self.currentPosition = currentPosition
     }
 }

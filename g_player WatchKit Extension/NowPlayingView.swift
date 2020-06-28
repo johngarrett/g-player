@@ -1,29 +1,26 @@
 import SwiftUI
 
 struct NowPlayingView: View {
-    let currentSong = PlayableContent("A computer from scratch with Jonthan morris", creator: "Cyberdeck Users Weekly", length: 390)
+    let currentSong: PlayableContent
+    let timeRemaining: String
     
-    var body: some View {
-         let timeRemaining: String = {
-            let diff = self.currentSong.length - currentSong.currentPosition
+    init(_ song: PlayableContent) {
+        self.currentSong = song
+        self.timeRemaining = {
+            let diff = song.length - song.currentPosition
             let hours = diff / 60
             let mins = diff - (hours * 60)
             return "- \(hours):\(mins)"
         }()
-        
+    }
+    
+    var body: some View {
         return VStack {
             Text(currentSong.title)
-                .font(.title3)
-                .fontWeight(.bold)
-                .foregroundColor(.white)
-                .lineLimit(2)
+                .style(for: .Title)
             Spacer()
             Text(currentSong.creator)
-                .font(.caption)
-                .fontWeight(.regular)
-                .foregroundColor(.gray)
-                .minimumScaleFactor(0.5)
-                .lineLimit(1)
+                .style(for: .Subtitle)
             HStack {
                 ZStack {
                     Rectangle().fill(Color.green)
@@ -54,6 +51,8 @@ struct NowPlayingView: View {
 
 struct NowPlayingView_Previews: PreviewProvider {
     static var previews: some View {
-        NowPlayingView()
+        NowPlayingView(
+            PlayableContent("A computer from scratch with Jonthan morris", creator: "Cyberdeck Users Weekly", length: 390, currentPosition: 300)
+        )
     }
 }
