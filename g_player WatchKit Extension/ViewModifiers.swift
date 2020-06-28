@@ -18,15 +18,15 @@ enum TextStyle {
     case Subtitle
 }
 extension View {
-    func style(for textstyle: TextStyle, with color: Color? = nil) -> some View {
+    func style(for textstyle: TextStyle, with color: Color? = nil, lineLimit: Int? = nil) -> some View {
         switch textstyle {
         case .Title:
             return self.modifier(
-                TextModifier(font: .gTitle, color: color ?? .white, minScaleFactor: 0.8, lineLimit: 2)
+                TextModifier(font: .gTitle, color: color ?? .white, minScaleFactor: 0.8, lineLimit: lineLimit ?? 2)
             )
         case .Subtitle:
             return self.modifier(
-                TextModifier(font: .gSubTitle, color: color ?? .gray, minScaleFactor: 0.5, lineLimit: 1)
+                TextModifier(font: .gSubTitle, color: color ?? .gray, minScaleFactor: 0.5, lineLimit: lineLimit ?? 1)
             )
         }
     }

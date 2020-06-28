@@ -1,13 +1,13 @@
 import Foundation
 
-struct PlayableContent {
+class PlayableContent: ObservableObject {
     let active: Bool
     let title: String
     let creator: String
     let image: String?
     let length: Int
-    let currentPosition: Int
-    
+    @Published var currentPosition: Int
+
     init(_ title: String, creator: String, length: Int, currentPosition: Int=0) {
         self.active = false
         self.title = title
@@ -15,5 +15,9 @@ struct PlayableContent {
         self.image = nil
         self.length = length
         self.currentPosition = currentPosition
+    }
+    
+    func increasePosition(by value: Int) {
+        self.currentPosition += value
     }
 }

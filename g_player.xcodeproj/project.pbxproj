@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9613239E24A917FA0020F3B1 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9613239D24A917FA0020F3B1 /* ProgressBar.swift */; };
 		96196C6F24A903C8000BE616 /* g_player WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 96196C6E24A903C8000BE616 /* g_player WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		96196C7524A903C8000BE616 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96196C7324A903C8000BE616 /* Interface.storyboard */; };
 		96196C7724A903C8000BE616 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96196C7624A903C8000BE616 /* Assets.xcassets */; };
@@ -16,7 +17,6 @@
 		96196C8724A903C9000BE616 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96196C8624A903C9000BE616 /* ExtensionDelegate.swift */; };
 		96196C8924A903C9000BE616 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96196C8824A903C9000BE616 /* Assets.xcassets */; };
 		96196C8C24A903C9000BE616 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96196C8B24A903C9000BE616 /* Preview Assets.xcassets */; };
-		96196CA024A90555000BE616 /* g_playerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96196C9B24A90554000BE616 /* g_playerApp.swift */; };
 		96196CA124A90555000BE616 /* GSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96196C9C24A90554000BE616 /* GSwiftUI.swift */; };
 		96196CA224A90555000BE616 /* NowPlayingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96196C9D24A90555000BE616 /* NowPlayingView.swift */; };
 		96196CA324A90555000BE616 /* UpNextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96196C9E24A90555000BE616 /* UpNextView.swift */; };
@@ -68,6 +68,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9613239D24A917FA0020F3B1 /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
 		96196C6A24A903C7000BE616 /* g_player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = g_player.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96196C6E24A903C8000BE616 /* g_player WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "g_player WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96196C7424A903C8000BE616 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
@@ -80,7 +81,6 @@
 		96196C8824A903C9000BE616 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96196C8B24A903C9000BE616 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		96196C8D24A903C9000BE616 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		96196C9B24A90554000BE616 /* g_playerApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = g_playerApp.swift; sourceTree = "<group>"; };
 		96196C9C24A90554000BE616 /* GSwiftUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GSwiftUI.swift; sourceTree = "<group>"; };
 		96196C9D24A90555000BE616 /* NowPlayingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NowPlayingView.swift; sourceTree = "<group>"; };
 		96196C9E24A90555000BE616 /* UpNextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpNextView.swift; sourceTree = "<group>"; };
@@ -134,8 +134,8 @@
 			children = (
 				96196CA624A9055D000BE616 /* PlayableContent.swift */,
 				96196CA524A9055D000BE616 /* ViewModifiers.swift */,
+				9613239D24A917FA0020F3B1 /* ProgressBar.swift */,
 				96196C9F24A90555000BE616 /* BrowseView.swift */,
-				96196C9B24A90554000BE616 /* g_playerApp.swift */,
 				96196C9C24A90554000BE616 /* GSwiftUI.swift */,
 				96196C9D24A90555000BE616 /* NowPlayingView.swift */,
 				96196C9E24A90555000BE616 /* UpNextView.swift */,
@@ -287,13 +287,13 @@
 			files = (
 				96196CA424A90555000BE616 /* BrowseView.swift in Sources */,
 				96196CA224A90555000BE616 /* NowPlayingView.swift in Sources */,
-				96196CA024A90555000BE616 /* g_playerApp.swift in Sources */,
 				96196CA824A9055E000BE616 /* PlayableContent.swift in Sources */,
 				96196CA724A9055E000BE616 /* ViewModifiers.swift in Sources */,
 				96196C8524A903C9000BE616 /* HostingController.swift in Sources */,
 				96196C8324A903C9000BE616 /* ContentView.swift in Sources */,
 				96196C8724A903C9000BE616 /* ExtensionDelegate.swift in Sources */,
 				96196CA124A90555000BE616 /* GSwiftUI.swift in Sources */,
+				9613239E24A917FA0020F3B1 /* ProgressBar.swift in Sources */,
 				96196CA324A90555000BE616 /* UpNextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -459,7 +459,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
 			};
 			name = Debug;
 		};
@@ -483,7 +483,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
 			};
 			name = Release;
 		};
@@ -502,7 +502,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
 			};
 			name = Debug;
 		};
@@ -521,7 +521,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
 			};
 			name = Release;
 		};

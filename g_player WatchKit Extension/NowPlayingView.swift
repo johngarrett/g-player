@@ -1,9 +1,10 @@
 import SwiftUI
-import AVFoundation
+import MediaPlayer
 
 struct NowPlayingView: View {
-    let currentSong: PlayableContent
-    let timeRemaining: String
+    @ObservedObject var currentSong: PlayableContent
+    var timeRemaining: String
+    @State var songProgression: Float = 0.0
     
     init(_ song: PlayableContent) {
         self.currentSong = song
@@ -13,52 +14,31 @@ struct NowPlayingView: View {
             let mins = diff - (hours * 60)
             return "- \(hours):\(mins)"
         }()
-        
-        let session = AVAudioSession.sharedInstance()
-
-        do {
-            try session.setCategory(AVAudioSession.Category.playback,
-                                    mode: .default,
-                                    policy: .default,
-                                    options: [])
-        } catch let error {
-            fatalError("*** Unable to set up the audio session: \(error.localizedDescription) ***")
-        }
-        
     }
     
     var body: some View {
         return VStack {
             Text(currentSong.title)
                 .style(for: .Title)
-            Spacer()
             Text(currentSong.creator)
                 .style(for: .Subtitle)
             HStack {
-                ZStack {
-                    Rectangle().fill(Color.green)
-                        .frame(height: 4)
-                        .cornerRadius(8.0)
-                        .zIndex(1.0)
-                        .offset(x: -20)
-                    Rectangle().fill(Color.gray)
-                        .frame(height: 4)
-                        .cornerRadius(8.0)
-                        .zIndex(0.0)
-                }
+                ProgressBar(value: $songProgression).frame(height: 4)
                 Text(timeRemaining)
-                    .font(.caption)
+                    .font(.gBody)
                     .foregroundColor(.gray)
-            }
-            .padding(.vertical, 5)
+            }.padding(.vertical, 5)
+            Spacer()
             Button(action: {
                 print("toggle")
+                self.songProgression += 0.10
             }) {
                 Rectangle().fill(Color.gray)
-            }
-            .padding(.vertical, 10)
-            .padding(.horizontal, 10)
-        }
+                    .frame(width: 60.0, height: 20.0, alignment: .center)
+                    .cornerRadius(6.5)
+            }.mask(Rectangle().cornerRadius(6.5))
+            Spacer()
+        }.padding(.horizontal, 10)
     }
 }
 
